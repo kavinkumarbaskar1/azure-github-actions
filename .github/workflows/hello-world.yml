@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - dev
   pull_request:
     branches:
       - dev
@@ -14,3 +15,5 @@ jobs:
     steps:
       - name: Print hello world
         run: echo "Hello, world!"
+
+    
